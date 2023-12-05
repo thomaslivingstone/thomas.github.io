@@ -1,2 +1,2 @@
-# thomas.github.io
+# Thomas Livingstone
 My portfolio website.
