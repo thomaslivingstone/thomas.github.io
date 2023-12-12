@@ -1,4 +1,4 @@
 # Thomas Livingstone
 My portfolio website.
 
-[View it Here](thomaslivingstone.ca)
+[View it Here](http://www.thomaslivingstone.ca)
