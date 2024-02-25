@@ -23,9 +23,8 @@
 body {
     font-family: Lato, sans-serif;
     color: var(--main-font);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
 }
 
 .content {
@@ -147,3 +146,9 @@ body {
     }
   }
 
+/* Temporary */
+
+.disclaimer {
+    margin-top: 6em;
+    text-align: center;
+}
