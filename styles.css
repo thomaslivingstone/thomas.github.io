@@ -2,8 +2,6 @@
     --main: white;
     --main-font: black;
     --shadow: rgba(1, 1, 1, 0.25);
-
-    
 }
 
 @font-face {
@@ -23,13 +21,14 @@
 body {
     font-family: Lato, sans-serif;
     color: var(--main-font);
-    min-height: 100vh;
     position: relative;
 }
 
 .content {
+    position: relative;
     margin: 0 8em 0 8em;
     padding-bottom: 2em;
+    min-height: 100vh;
 }
 
 .about-me {
