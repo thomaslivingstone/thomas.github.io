@@ -3,6 +3,10 @@
     --main-font: black;
     --shadow: rgba(1, 1, 1, 0.25);
     --form-borders: #cccccc;
+    --form-button-text: white;
+    --form-button: #2E8BC0;
+    --form-button-hover: #166fa3;
+    --form-button-clicked: #0b4d74;
 }
 
 @font-face {
@@ -143,6 +147,18 @@ textarea {
     margin-right: 0;
     border: 1px solid var(--form-borders);
     border-radius: 4px;
+    height: 3em;
+    width: 4.5em;
+    color: var(--form-button-text);
+    background-color: var(--form-button);
+}
+
+.contact form button:hover {
+    background-color: var(--form-button-hover);
+}
+
+.contact form button:active {
+    background-color: var(--form-button-clicked);
 }
 
 .footer {
