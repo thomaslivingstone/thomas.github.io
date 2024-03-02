@@ -33,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 4em;
     position: relative;
     margin: 0 8em 0 8em;
     padding-bottom: 2em;
