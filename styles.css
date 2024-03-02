@@ -114,10 +114,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
-.contact form input, textarea {
+.contact form input,
+textarea {
     font-family: Lato, sans-serif;
     width: 100%;
     max-width: 100%;
@@ -152,8 +153,16 @@ body {
     height: 2em;
 }
 
-/* Extra Small + Small screens */
-/* TODO */
+/* Large screens */
+
+@media (max-width: 1100px) {
+    .contact {
+        width: 70%;
+    }
+}
+
+/* Medium screens */
+
 @media (max-width: 992px) {
 
     .content {
@@ -184,7 +193,8 @@ body {
         width: 100%;
     }
 
-    .about-me-right h1, h3{
+    .about-me-right h1,
+    h3 {
         text-align: center;
     }
 
@@ -192,11 +202,26 @@ body {
         font-size: 2em;
         font-family: PlayfairDisplay, serif;
     }
-    
+
     .about-me-right h3 {
-       font-size: 1.5em;
+        font-size: 1.5em;
     }
-  }
+
+    .contact {
+        width: 60%;
+    }
+}
+
+/* Small screens */
+
+@media (max-width: 768px) {
+
+    .contact {
+        width: 100%;
+    }
+}
+
+
 
 /* Temporary */
 
