@@ -88,8 +88,10 @@ h2 {
 }
 
 /* for title on all pages but home */
-.title {
-  justify-self: center;
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
@@ -245,6 +247,7 @@ input {
 
   .aboutContent {
     width: 80%;
+    align-items: center;
   }
 
   .aboutGrouping {
