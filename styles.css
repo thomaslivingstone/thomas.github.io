@@ -143,6 +143,63 @@ h4 {
   margin-bottom: 2em;
 }
 
+
+/* PROJECTS */
+
+.projectContent {
+  width: 100%;
+  max-width: 75%;
+  margin-top: 2em;
+  justify-self: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  gap: 1em;
+}
+
+.projectItem {
+  color: var(--main-font);
+  padding: 10px;
+  background-color: var(--nav-button-main);
+  box-shadow: inset -1px -1px var(--nav-button-border), inset 1px 1px white,
+    inset -2px -2px var(--nav-button-border),
+    inset 2px 2px var(--nav-light-button-border);
+  text-decoration: none;
+}
+
+.projectItem:visited {
+  color: var(--main-font);
+}
+
+.projectItem:hover {
+  background-color: var(--nav-button-clicked);
+}
+
+.projectItem:active {
+  box-shadow: inset -1px -1px var(--nav-light-button-border),
+    inset 1px 1px var(--nav-button-border),
+    inset -2px -2px var(--nav-light-button-border),
+    inset 2px 2px var(--nav-button-border);
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* CONTACT */
+
 .contactContent {
   margin-top: 2em;
   justify-self: center;
@@ -151,8 +208,6 @@ h4 {
 .contactContent h2 {
   margin: 0;
 }
-
-/* CONTACT */
 
 .contactContent i {
   color: black;
@@ -227,6 +282,13 @@ input {
 }
 
 .contactContent hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* Utilities */
+
+.m2y {
   margin-top: 2em;
   margin-bottom: 2em;
 }
